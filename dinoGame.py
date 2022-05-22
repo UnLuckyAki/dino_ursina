@@ -41,7 +41,7 @@ sound = Audio(
   'assets\\beep',
   autoplay=False
 )
-
+#В этой функции curve будет подсвечиваться как ошибка, это нормально.
 def input(key):
   if key == 'space':
     if dino.y < 0.01:
